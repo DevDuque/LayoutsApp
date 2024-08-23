@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">LayoutsApp</string>
+
+    <!--  Legendas  -->
+    <string name="str_splashSubtitle"> Um aglomerado de telas  com diferentes layouts </string>
+    <string name="str_homeSubtitle"> Aplicação com diferentes layouts, mostrando as diferenças na hora de desenvolvimento e aparência. </string>
+    <string name="str_newsSubtitle"> João Montandon, está indo para o DCC, da UFMG. Vamos Parabeniza-lo e celebrar com ele. </string>
+
+    <!-- Botões -->
+    <string name="str_news"> Notícias </string>
+    <string name="str_forecast"> Previsão do Tempo </string>
+    <string name="str_form"> Formulário </string>
+
+    <!-- Página de Notícias -->
+    <string name="str_newsTitle"> Um dos Melhores Professores do COLTEC está de mudança! </string>
+    <string name="str_news_content"> É com alegria e saudade que anunciamos a mudança de um dos mais estimados professores do COLTEC, João, para o Departamento de Ciência da Computação (DCC) da UFMG. João inovou o ensino com uma abordagem envolvente e prática, e seu compromisso com a excelência acadêmica foi crucial na formação de profissionais de sucesso na Computação. Suas aulas foram jornadas de descoberta e crescimento.
+Parabéns, João! Sua jornada reflete seu compromisso e paixão pela educação. Estamos ansiosos para ver as novas conquistas no DCC da UFMG e como sua influência continuará a se espalhar. </string>
+    <string name="str_news_timestamp"> 11:30 – 23/08/2024 </string>
+
+    <string name="str_authorLabel"> Duque </string>
+    <string name="str_authorName"> Davih Duque </string>
+    <string name="str_authorEmail"> devgduque@gmail.com </string>
+
+    <!-- Página de Clima -->
+    <string name="str_forecastTitle"> Belo Horizonte </string>
+
+    <string-array name="str_weekDays">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+
+    <string-array name="str_minTemp">
+        <item>62.6°F</item>
+        <item>57.2°F</item>
+        <item>55.4°F</item>
+        <item>°55.4</item>
+        <item>57.2°F</item>
+    </string-array>
+
+    <string-array name="str_maxTemp">
+        <item>86°F</item>
+        <item>78.8°F</item>
+        <item>75.2°F</item>
+        <item>78.8°F</item>
+        <item>78.8°F</item>
+    </string-array>
+
+    <!-- Página de Avaliação -->
+    <string name="str_reviewTitle"> Review </string>
+    <string name="str_name"> Insert your name </string>
+    <string name="str_email"> Insert your email </string>
+    <string name="str_password"> Insert your password </string>
+    <string name="str_review"> Product Rating </string>
+    <string name="str_comment"> Insert your comment... </string>
+
+</resources>
