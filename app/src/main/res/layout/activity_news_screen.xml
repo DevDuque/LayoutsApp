@@ -3,16 +3,155 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".Screens.NewsScreen"
 
     android:background="@color/backgroundColor"
     android:orientation="vertical"
-    >
+
+    android:fitsSystemWindows="true" >
+
+    <!-- Botão de Voltar -->
+    <ImageButton android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:src="@drawable/img_backbutton"
+
+        android:background="@android:color/transparent"
+
+        android:layout_margin="16dp"
+        />
+
+    <!-- Título e Subtítulo -->
+    <TextView android:id="@+id/newsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_back"
+
+        android:gravity="start"
+        android:layout_marginHorizontal="16dp"
+
+        android:textSize="24sp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/str_newsTitle"
+        android:textColor="@color/primaryColor" />
+
+    <TextView android:id="@+id/newsSubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newsTitle"
+
+        android:gravity="start"
+        android:layout_marginHorizontal="16dp"
+
+        android:layout_marginTop="16dp"
+
+        android:textSize="15sp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/str_newsSubtitle"
+        android:textColor="@color/secondaryColor" />
+
+    <!-- Etiqueta do Autor com Linha Abaixo -->
+    <TextView android:id="@+id/authorLabel"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newsSubtitle"
+
+        android:layout_marginHorizontal="16dp"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginTop="8dp"
+
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/str_authorLabel"
+        android:textColor="@color/primaryColor" />
+
+    <View android:id="@+id/lineBelowAuthor"
+        android:layout_width="54dp"
+        android:layout_height="2dp"
+        android:layout_below="@id/authorLabel"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginHorizontal="16dp"
+
+        android:background="@color/buttonColor" />
 
 
+    <!-- Conteúdo da Notícia com Data -->
+    <TextView android:id="@+id/newsContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lineBelowAuthor"
 
+        android:gravity="start"
+        android:layout_marginHorizontal="16dp"
 
+        android:layout_marginTop="8dp"
+
+        android:textSize="15sp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/str_newsContent"
+        android:textColor="@color/textColor" />
+
+    <TextView android:id="@+id/dateNews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newsContent"
+
+        android:layout_marginHorizontal="16dp"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginTop="8dp"
+
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/str_newsTimestamp"
+        android:textColor="@color/buttonColor" />
+
+    <!-- Imagem e Dados do Autor -->
+    <ImageView android:id="@+id/authorImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dateNews"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+
+        android:src="@drawable/img_authorphoto" />
+
+    <TextView android:id="@+id/authorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/dateNews"
+        android:layout_toEndOf="@id/authorImg"
+        android:layout_alignTop="@id/authorImg"
+
+        android:layout_marginStart="8dp"
+
+        android:textSize="15sp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/str_authorName"
+        android:textColor="@color/textColor" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/authorName"
+        android:layout_toEndOf="@id/authorImg"
+        android:layout_alignBottom="@id/authorImg"
+
+        android:layout_marginStart="8dp"
+
+        android:textSize="15sp"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/textColor"
+        android:text="@string/str_authorEmail" />
 
 </RelativeLayout>

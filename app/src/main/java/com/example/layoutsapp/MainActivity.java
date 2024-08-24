@@ -46,10 +46,14 @@ public class MainActivity extends AppCompatActivity {
 
         btnForecast.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, ForecastScreen.class);
+
+            startActivity(intent);
         });
 
         btnForm.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, FormScreen.class);
+
+            startActivity(intent);
         });
 
 

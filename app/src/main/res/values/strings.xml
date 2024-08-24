@@ -3,8 +3,8 @@
 
     <!--  Legendas  -->
     <string name="str_splashSubtitle"> Um aglomerado de telas  com diferentes layouts </string>
-    <string name="str_homeSubtitle"> Aplicação com diferentes layouts, \n mostrando as diferenças na hora de desenvolvimento e aparência. </string>
-    <string name="str_newsSubtitle"> João Montandon, está indo para o DCC, da UFMG. Vamos Parabeniza-lo e celebrar com ele. </string>
+    <string name="str_homeSubtitle"> Aplicação com diferentes layouts, \nmostrando as diferenças na hora de desenvolvimento e aparência. </string>
+    <string name="str_newsSubtitle"> João Montandon, está indo para o DCC, da UFMG. \nVamos Parabeniza-lo e celebrar com ele. </string>
 
     <!-- Botões -->
     <string name="str_news"> Notícias </string>
@@ -13,9 +13,9 @@
 
     <!-- Página de Notícias -->
     <string name="str_newsTitle"> Um dos Melhores Professores do COLTEC está de mudança! </string>
-    <string name="str_news_content"> É com alegria e saudade que anunciamos a mudança de um dos mais estimados professores do COLTEC, João, para o Departamento de Ciência da Computação (DCC) da UFMG. João inovou o ensino com uma abordagem envolvente e prática, e seu compromisso com a excelência acadêmica foi crucial na formação de profissionais de sucesso na Computação. Suas aulas foram jornadas de descoberta e crescimento.
+    <string name="str_newsContent"> É com alegria e saudade que anunciamos a mudança de um dos mais estimados professores do COLTEC, João, para o Departamento de Ciência da Computação (DCC) da UFMG. João inovou o ensino com uma abordagem envolvente e prática, e seu compromisso com a excelência acadêmica foi crucial na formação de profissionais de sucesso na Computação. Suas aulas foram jornadas de descoberta e crescimento.
 Parabéns, João! Sua jornada reflete seu compromisso e paixão pela educação. Estamos ansiosos para ver as novas conquistas no DCC da UFMG e como sua influência continuará a se espalhar. </string>
-    <string name="str_news_timestamp"> 11:30 – 23/08/2024 </string>
+    <string name="str_newsTimestamp"> 11:30 – 23/08/2024 </string>
 
     <string name="str_authorLabel"> Duque </string>
     <string name="str_authorName"> Davih Duque </string>
