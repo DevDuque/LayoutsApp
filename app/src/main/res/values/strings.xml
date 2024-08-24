@@ -50,10 +50,18 @@ Parabéns, João! Sua jornada reflete seu compromisso e paixão pela educação.
 
     <!-- Página de Avaliação -->
     <string name="str_reviewTitle"> Avaliação </string>
-    <string name="str_name"> Insira o seu nome </string>
-    <string name="str_email"> Insira o seu email </string>
-    <string name="str_password"> Insira a sua senha </string>
-    <string name="str_comment"> Insira o seu comentário… </string>
-    <string name="str_review"> Nota de Avaliação </string>
 
+    <string name="str_name"> Nome: </string>
+    <string name="str_email"> Email: </string>
+    <string name="str_password"> Senha: </string>
+    <string name="str_review">Nota de avaliação: </string>
+    <string name="str_comment"> Comentário: </string>
+
+    <string name="str_nameInput"> Insira o seu nome </string>
+    <string name="str_emailInput"> Insira o seu email </string>
+    <string name="str_passwordInput"> Insira a sua senha </string>
+    <string name="str_commentInput"> Insira o seu comentário… </string>
+    <string name="str_reviewInput"> Nota de Avaliação </string>
+
+    <string name="str_submit"> Enviar </string>
 </resources>

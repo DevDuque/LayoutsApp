@@ -48,10 +48,18 @@
 
     <!-- Página de Avaliação -->
     <string name="str_reviewTitle">Review</string>
-    <string name="str_name">Insert your name</string>
-    <string name="str_email">Insert your email</string>
-    <string name="str_password">Insert your password</string>
-    <string name="str_review">Product Rating</string>
-    <string name="str_comment">Insert your comment...</string>
 
+    <string name="str_name"> Name: </string>
+    <string name="str_email"> Email: </string>
+    <string name="str_password"> Password: </string>
+    <string name="str_review">Product Rating: </string>
+    <string name="str_comment"> Comment: </string>
+
+    <string name="str_nameInput">Insert your name</string>
+    <string name="str_emailInput">Insert your email</string>
+    <string name="str_passwordInput">Insert your password</string>
+    <string name="str_reviewInput">Product Rating</string>
+    <string name="str_commentInput">Insert your comment...</string>
+
+    <string name="str_submit"> Submit </string>
 </resources>
