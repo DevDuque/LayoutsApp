@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="buttonColor">#FFC857</color>
+    <color name="primaryColor">#BDD9BF</color>
+    <color name="secondaryColor">#849886</color>
+    <color name="backgroundColor">#2E4052</color>
+
+    <color name="textColor">#FFFFFF</color>
 </resources>
