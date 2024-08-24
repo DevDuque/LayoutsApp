@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">LayoutsApp</string>
+    <string name="app_name" translatable="false">LayoutsApp</string>
 
     <!--  Legendas  -->
     <string name="str_splashSubtitle"> Um aglomerado de telas  com diferentes layouts </string>
-    <string name="str_homeSubtitle"> Aplicação com diferentes layouts, mostrando as diferenças na hora de desenvolvimento e aparência. </string>
+    <string name="str_homeSubtitle"> Aplicação com diferentes layouts, \n mostrando as diferenças na hora de desenvolvimento e aparência. </string>
     <string name="str_newsSubtitle"> João Montandon, está indo para o DCC, da UFMG. Vamos Parabeniza-lo e celebrar com ele. </string>
 
     <!-- Botões -->

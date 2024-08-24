@@ -1,21 +1,21 @@
 <resources>
-    <string name="app_name">LayoutsApp</string>
 
     <!--  Legendas  -->
-    <string name="str_splashSubtitle"> Um aglomerado de telas  com diferentes layouts </string>
-    <string name="str_homeSubtitle"> Aplicação com diferentes layouts, mostrando as diferenças na hora de desenvolvimento e aparência. </string>
-    <string name="str_newsSubtitle"> João Montandon, está indo para o DCC, da UFMG. Vamos Parabeniza-lo e celebrar com ele. </string>
+    <string name="str_splashSubtitle">A cluster of screens with different layouts</string>
+    <string name="str_homeSubtitle">Application with different layouts, showcasing the differences in development and appearance.</string>
+    <string name="str_newsSubtitle">João Montandon is moving to the DCC at UFMG. Let\'s congratulate him and celebrate with him.</string>
 
     <!-- Botões -->
-    <string name="str_news"> Notícias </string>
-    <string name="str_forecast"> Previsão do Tempo </string>
-    <string name="str_form"> Formulário </string>
+    <string name="str_news"> News </string>
+    <string name="str_forecast"> Weather Forecast </string>
+    <string name="str_form"> Form  </string>
 
     <!-- Página de Notícias -->
-    <string name="str_newsTitle"> Um dos Melhores Professores do COLTEC está de mudança! </string>
-    <string name="str_news_content"> É com alegria e saudade que anunciamos a mudança de um dos mais estimados professores do COLTEC, João, para o Departamento de Ciência da Computação (DCC) da UFMG. João inovou o ensino com uma abordagem envolvente e prática, e seu compromisso com a excelência acadêmica foi crucial na formação de profissionais de sucesso na Computação. Suas aulas foram jornadas de descoberta e crescimento.
-Parabéns, João! Sua jornada reflete seu compromisso e paixão pela educação. Estamos ansiosos para ver as novas conquistas no DCC da UFMG e como sua influência continuará a se espalhar. </string>
-    <string name="str_news_timestamp"> 11:30 – 23/08/2024 </string>
+    <string name="str_newsTitle">One of the Best Professors at COLTEC is Moving!</string>
+    <string name="str_news_content">It is with joy and nostalgia that we announce the move of one of COLTEC\'s most esteemed professors, João, to the Department of Computer Science (DCC) at UFMG. João revolutionized teaching with an engaging and practical approach, and his commitment to academic excellence has been crucial in shaping successful computing professionals. His classes were journeys of discovery and growth.
+Congratulations, João! Your journey reflects your commitment and passion for education. We look forward to seeing your new achievements at UFMG's DCC and how your influence will continue to spread.</string>
+    <string name="str_news_timestamp">11:30 – 23/08/2024</string>
+
 
     <string name="str_authorLabel"> Duque </string>
     <string name="str_authorName"> Davih Duque </string>

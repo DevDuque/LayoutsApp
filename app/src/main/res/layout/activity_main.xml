@@ -24,7 +24,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/imageSection"
 
         android:textSize="48sp"
         android:text="@string/app_name"
@@ -40,7 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
 
-        app:layout_constraintBottom_toTopOf="buttonSection"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/appTitle"
@@ -64,7 +63,8 @@
             android:textSize="12sp"
             android:textStyle="bold"
             android:text="@string/str_homeSubtitle"
-            android:textColor="@color/backgroundColor" />
+            android:textColor="@color/backgroundColor"
+            />
     </LinearLayout>
 
     <!-- Seção dos Botões -->
@@ -76,9 +76,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/imageSection"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-
-        android:padding="16dp">
+        app:layout_constraintBottom_toBottomOf="parent">
 
         <Button android:id="@+id/btn_news"
             android:layout_width="392dp"
@@ -87,6 +85,7 @@
             android:textSize="20sp"
             android:text="@string/str_news"
             android:fontFamily="@font/poppins"
+            android:textColor="@color/backgroundColor"
 
             android:backgroundTint="@color/buttonColor" />
 
@@ -97,6 +96,7 @@
             android:textSize="20sp"
             android:fontFamily="@font/poppins"
             android:text="@string/str_forecast"
+            android:textColor="@color/backgroundColor"
 
             android:backgroundTint="@color/buttonColor"
 
@@ -109,6 +109,7 @@
             android:textSize="20sp"
             android:fontFamily="@font/poppins"
             android:text="@string/str_form"
+            android:textColor="@color/backgroundColor"
 
             android:backgroundTint="@color/buttonColor"
 
