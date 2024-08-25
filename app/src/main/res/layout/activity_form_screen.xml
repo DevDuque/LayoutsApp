@@ -220,7 +220,7 @@
 
             android:textSize="20sp"
             android:fontFamily="@font/poppins"
-            android:text="@string/str_form"
+            android:text="@string/str_submit"
             android:textColor="@color/backgroundColor"
 
             android:backgroundTint="@color/buttonColor"
