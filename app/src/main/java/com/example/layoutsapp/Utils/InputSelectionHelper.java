@@ -37,4 +37,12 @@ public class InputSelectionHelper {
             stars[i].setImageResource(R.drawable.img_starinactive);
         }
     }
+
+    // Método para resetar a seleção de estrelas
+    public static void resetStarSelection(ImageButton[] stars) {
+        // Define todas as estrelas como inativas
+        for (ImageButton star : stars) {
+            star.setImageResource(R.drawable.img_starinactive);
+        }
+    }
 }

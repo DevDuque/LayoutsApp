@@ -29,9 +29,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
 
-        android:orientation="vertical"
+        android:layout_margin="12dp"
 
-        android:padding="16dp">
+        android:orientation="vertical">
 
         <!-- Título da página -->
         <TextView android:id="@+id/formTitle"
@@ -59,7 +59,7 @@
             android:fontFamily="@font/poppins"
             android:textColor="@color/textColor" />
 
-        <EditText
+        <EditText android:id="@+id/input_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
 
@@ -68,8 +68,10 @@
             android:background="@drawable/edit_background"
 
             android:hint="@string/str_nameInput"
+
             android:textSize="18sp"
             android:fontFamily="@font/poppins"
+            android:textColor="@color/backgroundColor"
             android:textColorHint="@color/secondaryColor" />
 
         <!-- Etiqueta do Email -->
@@ -85,7 +87,7 @@
             android:fontFamily="@font/poppins"
             android:textColor="@color/textColor" />
 
-        <EditText
+        <EditText android:id="@+id/input_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
 
@@ -94,8 +96,10 @@
             android:background="@drawable/edit_background"
 
             android:hint="@string/str_emailInput"
+
             android:textSize="18sp"
             android:fontFamily="@font/poppins"
+            android:textColor="@color/backgroundColor"
             android:textColorHint="@color/secondaryColor" />
 
         <!-- Etiqueta do Comentário -->
@@ -111,17 +115,21 @@
             android:fontFamily="@font/poppins"
             android:textColor="@color/textColor" />
 
-        <EditText
+        <EditText android:id="@+id/input_comment"
             android:layout_width="match_parent"
             android:layout_height="100dp"
 
             android:padding="12dp"
 
+            android:inputType="textMultiLine"
+
             android:background="@drawable/edit_background"
 
             android:hint="@string/str_commentInput"
+
             android:textSize="18sp"
             android:fontFamily="@font/poppins"
+            android:textColor="@color/backgroundColor"
             android:textColorHint="@color/secondaryColor" />
 
         <!-- Seção de Avaliação -->
@@ -130,7 +138,7 @@
             android:layout_height="wrap_content"
 
             android:orientation="vertical"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="16dp"
 
             android:padding="12dp"
 
