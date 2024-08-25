@@ -1,67 +1,6 @@
 <resources>
-    <string name="app_name" translatable="false">LayoutsApp</string>
+    <string name="app_name" translatable="false">PlacesAdapter</string>
+    <string name="str_splash">Sou branch que tem a lista do Adapter</string>
 
-    <!--  Legendas  -->
-    <string name="str_splashSubtitle"> Um aglomerado de telas  com diferentes layouts </string>
-    <string name="str_homeSubtitle"> Aplicação com diferentes layouts, \nmostrando as diferenças na hora de desenvolvimento e aparência. </string>
-    <string name="str_newsSubtitle"> João Montandon, está indo para o DCC, da UFMG. \nVamos Parabeniza-lo e celebrar com ele. </string>
 
-    <!-- Botões -->
-    <string name="str_news"> Notícias </string>
-    <string name="str_forecast"> Previsão do Tempo </string>
-    <string name="str_form"> Formulário </string>
-
-    <!-- Página de Notícias -->
-    <string name="str_newsTitle"> Um dos Melhores Professores do COLTEC está de mudança! </string>
-    <string name="str_newsContent"> É com alegria e saudade que anunciamos a mudança de um dos mais estimados professores do COLTEC, João, para o Departamento de Ciência da Computação (DCC) da UFMG. João inovou o ensino com uma abordagem envolvente e prática, e seu compromisso com a excelência acadêmica foi crucial na formação de profissionais de sucesso na Computação. Suas aulas foram jornadas de descoberta e crescimento.
-Parabéns, João! Sua jornada reflete seu compromisso e paixão pela educação. Estamos ansiosos para ver as novas conquistas no DCC da UFMG e como sua influência continuará a se espalhar. </string>
-    <string name="str_newsTimestamp"> 11:30 – 23/08/2024 </string>
-
-    <string name="str_authorLabel"> Duque </string>
-    <string name="str_authorName"> Davih Duque </string>
-    <string name="str_authorEmail"> devgduque@gmail.com </string>
-
-    <!-- Página de Clima -->
-    <string name="str_forecastTitle"> Belo Horizonte </string>
-
-    <string-array name="str_weekDays">
-        <item>Domingo</item>
-        <item>Segunda-Feira</item>
-        <item>Terça-Feira</item>
-        <item>Quarta-Feira</item>
-        <item>Quinta-Feira</item>
-    </string-array>
-
-    <string-array name="str_minTemp">
-        <item>17°C</item>
-        <item>14°C</item>
-        <item>13°C</item>
-        <item>13°C</item>
-        <item>14°C</item>
-    </string-array>
-
-    <string-array name="str_maxTemp">
-        <item>30°C</item>
-        <item>26°C</item>
-        <item>24°C</item>
-        <item>26°C</item>
-        <item>26°C</item>
-    </string-array>
-
-    <!-- Página de Avaliação -->
-    <string name="str_reviewTitle"> Avaliação </string>
-
-    <string name="str_name"> Nome: </string>
-    <string name="str_email"> Email: </string>
-    <string name="str_password"> Senha: </string>
-    <string name="str_review">Nota de avaliação: </string>
-    <string name="str_comment"> Comentário: </string>
-
-    <string name="str_nameInput"> Insira o seu nome </string>
-    <string name="str_emailInput"> Insira o seu email </string>
-    <string name="str_passwordInput"> Insira a sua senha </string>
-    <string name="str_commentInput"> Insira o seu comentário… </string>
-    <string name="str_reviewInput"> Nota de Avaliação </string>
-
-    <string name="str_submit"> Enviar </string>
 </resources>
