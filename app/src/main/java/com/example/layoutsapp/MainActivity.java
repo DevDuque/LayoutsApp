@@ -16,11 +16,6 @@ import com.example.layoutsapp.Screens.ForecastScreen;
 
 public class MainActivity extends AppCompatActivity {
 
-    // Botões das telas
-    private Button btnNews;
-    private Button btnForecast;
-    private Button btnForm;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,29 +27,6 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        // Inicializando os botões
-        btnNews = findViewById(R.id.btn_news);
-        btnForecast = findViewById(R.id.btn_forecast);
-        btnForm = findViewById(R.id.btn_form);
-
-        // Métodos de redirecionamento dos botões
-        btnNews.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this, NewsScreen.class);
-
-            startActivity(intent);
-        });
-
-        btnForecast.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this, ForecastScreen.class);
-
-            startActivity(intent);
-        });
-
-        btnForm.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this, FormScreen.class);
-
-            startActivity(intent);
-        });
 
 
     }
